@@ -1,8 +1,9 @@
-import { modelo } from "../models/alumnos.model";
+import { Modelo } from "../models/alumnos.model.js";  //Le faltaba el .js
+//debe estar en mayuscula el Modeloo
 
-modelo.create({
-    Name:"Rodolfo",
-    edad:25
+Modelo.create({//Aqui tambien debe estar en mayuscua el modelo
+    name:"Rodolfo",//Name debe ser con minuscula y aqui esta en mayuscula
+    Edad:25//Y aqui debe ser en mayuscula
 })
 
 export const test1 = ()=>{
